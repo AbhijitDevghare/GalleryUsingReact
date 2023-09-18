@@ -1,0 +1,31 @@
+body
+{
+   overflow-x: hidden;   
+}
+.GalleryPage
+{
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 20px 0px 0px 0px;
+}
+
+.prev-next
+{
+    cursor: pointer;
+    width: 80px;
+    padding: 5px;
+    border: 2px solid white;
+    margin-left: 10px;
+    background: deeppink;
+    color: white;
+    font-size: 15px;
+
+}
+
+.prev-next:hover
+{
+    background-color: green;
+}

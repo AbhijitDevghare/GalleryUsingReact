@@ -1,0 +1,59 @@
+
+.Image-Box
+{
+
+   width: 55vw;
+   background-color: rgb(194, 197, 197) ;
+   display: flex;
+   align-items: center;
+   justify-content: space-evenly;
+   gap: 50px;
+   margin: 50px 0px 0px 350px;
+   color: black;
+   padding: 30px;
+   border: none;
+   border-radius: 2%;
+   border: 1px solid black;
+   /* flex-wrap: wrap; */
+}
+
+.Image-Box img
+{
+    max-width: 28vw;
+    border-radius: 30px;
+    align-self: flex-start;
+    border: 1px solid white;
+}
+
+
+#title-description
+{
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    line-height: 25px;
+    align-items: center ;
+
+}
+#title-description h2
+{
+    font-size: 30px;
+    line-height: 35px;
+}
+
+#title-description p
+{
+    font-size: 20px;
+}
+
+#downloadingPara
+{
+    display: flex;
+    margin-top: 300px;
+    align-items: center;
+    justify-content: center;
+}
+

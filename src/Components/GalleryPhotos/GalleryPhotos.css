@@ -1,0 +1,17 @@
+.photoDiv
+{
+    width: 510px;
+    display: flex;
+    flex-direction: column;
+    margin: 1px;
+
+}
+
+
+
+img
+{
+    object-fit: contain;
+    cursor: pointer;
+    border-radius: 6px;
+}
